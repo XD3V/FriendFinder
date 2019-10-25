@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <link rel="stylesheet" href="/app/data/public/routing/style.css" />
+  <title>Survey Friend Finder</title>
+
+  <body>
+    <!-- The Survey form -->
+
+    <div class="container">
+      <!-- Title -->
+
+
+      <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+        <h1 class="font-weight-bold">Survey Questions</h1>
+         <hr class="my-4">
+         <h2> <strong>About You</strong> </h2>
+      </div>
+    </div>
+
+
+        <!-- Survey form begins -->
+      <form>
+            
+           
+           
+        <!-- Name Forum request-->
+        <div class="col-auto">  
+            <h4 class="font-weight-normal">Name (Required)</h4>
+            <input type="text" id="name" class="form-control" required="">
+                </div>
+            
+
+        <!-- Picture forum request -->
+          <div class="col-auto">
+              <h4 class="font-weight-normal">Link to Photo Image (Required)</h4>
+              <input type="text" id="photo" class="form-control" required="">
+            </div>
+          
+
+          <!-- Question one -->
+      
+          
+ <h3 class="y-2" > <strong> Question 1 </strong> </h3>
+    <div class="col-auto">   
+        <h4 class="font-weight-normal"> Do you like to do out-door activities </h4>
+    </div>
+          <div class="form-row align-items-center">
+               
+                <div class="col-auto">
+                  <label class="sr-only" for="inlineFormCustomSelect">Preference</label>
+                  <select class="custom-select mr-sm-2" id="q1">
+                    <option selected >Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                  </select>
+                        </div>
+          <!--Submit Button  -->
+          
+          <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+
+      </form>
+    </div>
+  </body>
+</html>
