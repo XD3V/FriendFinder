@@ -1,6 +1,6 @@
 // Dependencies
 // =============================================================
-const friends = require("./public/friends.js");
+let friends = require("/Users/xdavi/Desktop/classhw/week13/FriendFinder/app/data/friends.js");
 
 
 // Routes
